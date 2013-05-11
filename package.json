@@ -1,6 +1,6 @@
 {
   "name": "umbrella",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Lightweight express framework - provides structure while preserving flexibility",
   "author": "John Granström <granstrom.john@gmail.com>",
   "dependencies": {
@@ -16,5 +16,6 @@
   },
   "engines": {
     "node": ">=0.10.0"
-  }
+  },
+  "license": "MIT"
 }
