@@ -1,0 +1,19 @@
+{
+  "name": "umbrella",
+  "version": "0.0.1",
+  "author": "John Granström <granstrom.john@gmail.com>",
+  "dependencies": {
+    "express": "~3.2.3",
+    "async": "~0.2.8"
+  },
+  "devDependencies": {
+    "jasmine-node": "~1.7.0",
+    "should": "~1.2.2",
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.4.3",
+    "grunt-contrib-jasmine-node": "~0.1.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
