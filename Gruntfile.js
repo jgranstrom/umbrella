@@ -1,3 +1,4 @@
+'use strict';
 /* jshint camelcase:false */
 
 module.exports = function(grunt) {
@@ -18,6 +19,7 @@ module.exports = function(grunt) {
           unused: true,
 					node: true,
 					es5: true,
+					strict: true
 				},
 				files: {
 					src: ['*.js', 'lib/**/*.js', 'spec/**/*.js']

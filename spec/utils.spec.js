@@ -1,3 +1,4 @@
+'use strict';
 /* Define test-specific jshint options */
 /* jshint unused:false */ // unused ignore because of should usage
 /* jshint expr:true */ // expressions ignored because of should-expressions
