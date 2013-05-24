@@ -1,6 +1,6 @@
 {
   "name": "umbrella",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Lightweight express framework - provides structure while preserving flexibility",
   "author": "John Granström <granstrom.john@gmail.com>",
   "dependencies": {
