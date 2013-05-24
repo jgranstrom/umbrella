@@ -8,23 +8,8 @@
 /**
  * Require modules.
  */
-var utilities = require('../lib/util'),
+var utilities = require('../lib/utilities'),
   should = require('should');
-
-/**
- * Test the object proxy
- */
-describe('object proxy', function() {
-  it('should be in obj context', function() {
-    var obj = { text: 'in object' };
-    var func = function() {
-      this.text.should.equal(obj.text);
-    };
-    var proxyFunc = utilities.objectProxy(obj, func);
-    (typeof proxyFunc).should.equal('function');
-    proxyFunc();
-  });
-});
 
 /**
  * Test the parameter extractor
